@@ -1,0 +1,3 @@
+{{{info|add title=Neuer {{#switch:{{CONTENTLANG}}|de=Anwendungsfall|Use Case}}|edit title={{#switch:{{CONTENTLANG}}|de=Anwendungsfall|Use Case}} bearbeiten|page name=C<unique number;random;10>}}}
+{{FormFooter|{{#switch:{{CONTENTLANG}}|de=Anwendungsfall|Use Case}}}}
+[[Category:DSKMFCoreDomain]]
