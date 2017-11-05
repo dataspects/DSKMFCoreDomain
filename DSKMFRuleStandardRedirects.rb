@@ -21,12 +21,10 @@ module SDMS
         # This is the concrete rule content
         hRedirects = {}
         oSystem.aTopics.each do |oTopic|
-          hRedirects[oTopic.sName] = [
-            oTopic.sTitle
-          ]
+          hRedirects[oTopic.sName] = [oTopic.sTitle]
         end
-        hRedirects.each do |sTargetPageName, hSourcePageNames|
-          hSourcePageNames.each do |sSourcePageName|
+        hRedirects.each do |sTargetPageName, aSourcePageNames|
+          aSourcePageNames.each do |sSourcePageName|
             if(oSystem.has_redirect_from_PAGENAME_to_PAGENAME?(sSourcePageName, sTargetPageName))
               SDMS.logMessage("EXISTS: Redirect from #{sSourcePageName} to #{sTargetPageName}")
             else
