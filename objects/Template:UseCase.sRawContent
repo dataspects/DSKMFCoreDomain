@@ -1,7 +1,0 @@
-<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}}}
-
-{{RegularProperty|PropertyName=HasSubjectType|PropertyValue={{#switch:{{CONTENTLANG}}|de=Anwendungsfall|Use Case}}}}
-
-{{DISPLAYTITLE:{{#switch:{{CONTENTLANG}}|de=Anwendungsfall|Use Case}} "{{{HasTitle}}}"}}
-{{#default_form:{{#switch:{{CONTENTLANG}}|de=Anwendungsfall|Use Case}}}}</includeonly>
-<noinclude>[[Category:DSKMFCoreDomain]]</noinclude>
