@@ -2,7 +2,7 @@
 
   SDMS Script
   -----------
-
+  require 'DSKMFRuleStandardRedirects.rb'
   smwck = SDMS::SemanticMediaWiki.new(@oProfiles, "smwck_restored", @hOptions)
   rule = SDMS::Rules::DSStandardRedirects.new(@hOptions)
   rule.enforce_on_SYSTEM(smwck)
